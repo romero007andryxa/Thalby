@@ -5,25 +5,6 @@ $('.modal__close').on('click', function(){
     $('.overlay, #thanks').fadeOut('slow');
 });
 
-
-function validateForms(form){
-    $(form).validate({
-        rules: {
-            name: {
-                required: true,
-                minlength: 2
-            },
-            phone: "required",
-            email: {
-                required: true,
-                email: true
-            }
-        }
-    });
-};
-
-validateForms('#newsletterform');
-
 $('input[name=phone]').mask("+7 (999) 999-99-99");
 
 $('form').submit(function(e){
