@@ -1,0 +1,45 @@
+.interviews {
+    position: relative;
+    text-align: center;
+    padding: 110px 0 50px;
+    &__wrapper {
+        margin-top: 100px;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    &__item {
+        width: 290px;
+        margin-bottom: 30px;
+    }
+    &__quote {
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 26px;
+        margin-top: 35px;
+    }
+    &__bio {
+        margin-top: 40px;
+        font-size: 20px;
+        line-height: 23px;
+    }
+    &__link {
+        margin-top: 50px;
+    }
+    &__photo {
+        width: 100%;
+        img {
+            height: 350px;
+        }
+    }
+    &__background {
+        display: block;
+        height: 510px;
+        width: 100%;
+        background: #F0F0F0;
+        position: absolute;
+        left: 0;
+        top: 486px;
+        z-index: -1;
+    }
+}

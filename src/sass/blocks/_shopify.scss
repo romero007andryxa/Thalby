@@ -1,0 +1,23 @@
+.shopify {
+    height: 555px;
+    padding: 90px 0;
+    background: url('../img/main_bg.jpg') no-repeat 50%/cover;
+    &__title {
+        font-weight: 700;
+        font-size: 60px;
+        line-height: 70px;
+    }
+    &__subtitle {
+        margin-top: 42px;
+        font-size: 24px;
+        line-height: 28px;
+    }
+    &__btn {
+        display: inline-block;
+        margin-top: 26px;
+        &:hover {
+            text-decoration: none;
+            color: white;
+        }
+    }
+}

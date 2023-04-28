@@ -1,0 +1,22 @@
+#shopify-chat {
+    position: fixed;
+    left: 97%;
+    transform: translateX(-97%);
+    top: 90%;
+    z-index: 10;
+    #shopify-chat-button {
+        border-radius: 30px;
+        cursor: pointer;
+        margin: 4px 0 0 6px;
+        border: none;
+        box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.15);
+        font-size: 16px;
+        font-weight: 500;
+        height: 60px;
+        padding: 14px 20px;
+        width: auto;
+        width: 144px;
+        background-color: #1b1d2c;
+        color: #fff;
+    }
+}

@@ -1,0 +1,24 @@
+.title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    &_fw400 {
+        font-weight: 400;
+    }
+    &_fz18 {
+        font-size: 18px;
+        line-height: 20px;
+    }
+    &_fz30 {
+        font-size: 30px;
+        line-height: 36px;
+    }
+    &_fz14 {
+        font-size: 14px;
+        line-height: 23px;
+    }
+    &_white {
+        color: white;
+        text-transform: uppercase;
+    }
+}

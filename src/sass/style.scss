@@ -1,0 +1,35 @@
+@import url('libs/_bootstrap-reboot.min.scss');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+@import 'base/variables';
+@import 'base/mixins';
+
+* {
+/*     box-sizing: border-box; */
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.container {
+    width: 1065px;
+    margin: 0 auto;
+}
+h1, h2, h3, h4, h5, h6 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+@import 'blocks/title';
+@import 'blocks/shopifychat';
+@import 'blocks/navbar';
+@import 'blocks/shopify';
+@import 'blocks/button';
+@import 'blocks/links';
+@import 'blocks/guides';
+@import 'blocks/cards';
+@import 'blocks/features';
+@import 'blocks/interviews';
+@import 'blocks/newsletter';
+@import 'blocks/footer';
+@import 'blocks/modal';
+

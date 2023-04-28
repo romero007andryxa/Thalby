@@ -1,0 +1,15 @@
+.btn {
+    height: 35px;
+    background: #000000;
+    border: 1px solid #000000;
+    border-radius: 100px;
+    padding: 6px 23px;
+    color: white;
+    font-size: 17px;
+    line-height: 20px;
+    transition: 0.5s all;
+    &:hover {
+        background: white;
+        color: black;
+    }
+}

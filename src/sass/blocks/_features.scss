@@ -1,0 +1,27 @@
+.features {
+    padding: 190px 0 50px 0;
+    text-align: center;
+    &__wrapper {
+        display: grid;
+        margin-top: 70px;
+        grid-template-columns: repeat(3, minmax(335px, auto));
+        grid-template-rows: repeat(2, minmax(170px, auto));
+        grid-auto-rows: minmax(170px, auto);
+        column-gap: 25px;
+        row-gap: 110px;
+    }
+    &__item {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__circle {
+        border-radius: 35px;
+        height: 70px;
+        width: 70px;
+        &_turquoise {
+            background-color: #21F7EC;
+        }
+    }
+}
